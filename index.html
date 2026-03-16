@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CanaYo - Yoghurt Sehat dari Ganyong</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ================= HEADER / NAV ================= -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <!-- Simple logo mark -->
+        <div class="logo__icon">
+          <span class="logo__drop"></span>
+        </div>
+        <span class="logo__text">CanaYo</span>
+      </a>
+
+      <nav class="nav" id="navMenu">
+        <a href="#hero" class="nav__link">Beranda</a>
+        <a href="#about" class="nav__link">Tentang</a>
+        <a href="#products" class="nav__link">Produk</a>
+        <a href="#sustainability" class="nav__link">Sustainability</a>
+        <a href="#education" class="nav__link">Edukasi</a>
+        <a href="#contact" class="nav__link nav__link--primary">Pesan</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="hero__eyebrow">Yoghurt Lokal dari Ganyong</p>
+          <h1 class="hero__title">
+            Yoghurt Sehat dari Ganyong —
+            <span class="hero__title-highlight">Lokal, Lezat, dan Ramah Lingkungan.</span>
+          </h1>
+          <p class="hero__subtitle">
+            CanaYo menghadirkan yoghurt sehat berbahan dasar umbi ganyong,
+            kaya serat, lembut, dan ramah bumi. Cocok untuk gaya hidup muda
+            yang peduli kesehatan dan lingkungan.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Coba Sekarang</a>
+            <a href="#about" class="btn btn--ghost">Pelajari Lebih Lanjut</a>
+          </div>
+
+          <div class="hero__badges">
+            <div class="badge">
+              <span class="badge__icon">🌱</span>
+              <span>Berbasis tanaman & lokal</span>
+            </div>
+            <div class="badge">
+              <span class="badge__icon">💪</span>
+              <span>Tinggi serat & nutrisi</span>
+            </div>
+            <div class="badge">
+              <span class="badge__icon">♻️</span>
+              <span>Kemasan ramah lingkungan</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <!-- Pastel background shape -->
+          <div class="hero__blob"></div>
+
+          <!-- Mascot illustration (simple SVG-style character) -->
+          <div class="mascot-card">
+  <img src="maskot1.jpg" alt="Maskot CanaYo" class="mascot" />
+  <p class="mascot-card__label">Halo, aku YoYo! Teman yoghurt ganyong-mu 🍓</p>
+          </div>
+
+          <!-- Product mockup placeholder (replace img src with real photo later) -->
+          <div class="product-mockup">
+            <div class="product-mockup__bottle product-mockup__bottle--strawberry">
+              <div class="product-mockup__label">
+                <span class="product-mockup__brand">CanaYo</span>
+                <span class="product-mockup__flavor">Strawberry Bliss</span>
+              </div>
+            </div>
+            <div class="product-mockup__bottle product-mockup__bottle--blueberry">
+              <div class="product-mockup__label">
+                <span class="product-mockup__brand">CanaYo</span>
+                <span class="product-mockup__flavor">Lavender Berry</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="hero__pattern hero__pattern--left"></div>
+      <div class="hero__pattern hero__pattern--right"></div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section section--alt">
+      <div class="container section__inner section__inner--two-col">
+        <div class="section__content reveal">
+          <h2 class="section__title">Tentang CanaYo</h2>
+          <p class="section__subtitle">
+            Yoghurt sehat berbasis umbi lokal, lahir dari inovasi anak muda Indonesia.
+          </p>
+          <p>
+            CanaYo adalah brand yoghurt sehat yang menggunakan umbi
+            <strong>ganyong</strong> sebagai bahan utama. Ganyong adalah umbi lokal Indonesia
+            yang kaya serat, mudah dibudidayakan, dan tahan iklim tropis.
+            Dengan mengolah ganyong menjadi yoghurt, kami ingin menghadirkan
+            pilihan camilan yang <strong>lezat, sehat, dan berkelanjutan</strong>.
+          </p>
+          <div class="about__grid">
+            <div class="about-card">
+              <h3>Mengapa Ganyong?</h3>
+              <p>
+                Ganyong mengandung karbohidrat kompleks dan serat yang baik
+                untuk pencernaan. Tanaman ini dapat tumbuh dengan sedikit
+                input kimia, sehingga lebih ramah lingkungan dan cocok untuk
+                pertanian berkelanjutan.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>Visi</h3>
+              <p>
+                Menjadi brand yoghurt lokal yang mengangkat potensi pangan
+                Nusantara, sekaligus menginspirasi gaya hidup sehat dan
+                sadar lingkungan di kalangan anak muda.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>Misi</h3>
+              <ul class="about-card__list">
+                <li>Mengembangkan produk sehat berbasis tanaman lokal.</li>
+                <li>Mendukung petani ganyong dan rantai pasok berkelanjutan.</li>
+                <li>Mengedukasi konsumen tentang diversifikasi pangan.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="section__visual reveal">
+          <div class="stat-card">
+            <h3 class="stat-card__number">3x</h3>
+            <p class="stat-card__label">Lebih tinggi serat dibanding yoghurt biasa*</p>
+          </div>
+          <div class="stat-card stat-card--accent">
+            <h3 class="stat-card__number">80%</h3>
+            <p class="stat-card__label">Petani mitra adalah petani muda lokal</p>
+          </div>
+          <p class="stat-card__note">
+            *Perbandingan berdasarkan formulasi produk uji internal CanaYo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PRODUCTS ================= -->
+    <section id="products" class="section">
+      <div class="container">
+        <div class="section__header reveal">
+          <h2 class="section__title">Varian Produk</h2>
+          <p class="section__subtitle">
+            Pilih rasa favoritmu, semuanya terbuat dari ganyong berkualitas dan bahan alami.
+          </p>
+        </div>
+
+        <div class="products-grid">
+          <!-- Product Card 1 -->
+          <article class="product-card reveal">
+            <div class="product-card__tag">Best Seller</div>
+            <h3 class="product-card__title">Strawberry Bliss</h3>
+            <p class="product-card__desc">
+              Yoghurt ganyong lembut dengan paduan stroberi segar, rasa manis-asam yang seimbang.
+            </p>
+            <ul class="product-card__list">
+              <li>Kalori: 120 kkal / 100 ml</li>
+              <li>Serat: 4g</li>
+              <li>Tanpa pewarna buatan</li>
+            </ul>
+            <div class="product-card__footer">
+              <span class="product-card__badge">🌱 High Fiber</span>
+              <button class="btn btn--sm btn--outline">Lihat Detail</button>
+            </div>
+          </article>
+
+          <!-- Product Card 2 -->
+          <article class="product-card reveal">
+            <h3 class="product-card__title">Lavender Berry Calm</h3>
+            <p class="product-card__desc">
+              Rasa unik dengan sentuhan berry dan aroma lembut lavender, cocok diminum saat santai.
+            </p>
+            <ul class="product-card__list">
+              <li>Kalori: 110 kkal / 100 ml</li>
+              <li>Serat: 3.5g</li>
+              <li>Less sugar, tanpa pemanis buatan</li>
+            </ul>
+            <div class="product-card__footer">
+              <span class="product-card__badge">💜 Mood Booster</span>
+              <button class="btn btn--sm btn--outline">Lihat Detail</button>
+            </div>
+          </article>
+
+          <!-- Product Card 3 -->
+          <article class="product-card reveal">
+            <h3 class="product-card__title">Tropical Ganyong Glow</h3>
+            <p class="product-card__desc">
+              Kombinasi nanas dan kelapa dengan basis ganyong yang creamy, segar untuk hari aktifmu.
+            </p>
+            <ul class="product-card__list">
+              <li>Kalori: 130 kkal / 100 ml</li>
+              <li>Serat: 4.2g</li>
+              <li>Probiotik hidup</li>
+            </ul>
+            <div class="product-card__footer">
+              <span class="product-card__badge">☀️ Active Day</span>
+              <button class="btn btn--sm btn--outline">Lihat Detail</button>
+            </div>
+          </article>
+        </div>
+
+        <div class="highlight-row reveal">
+          <div class="highlight-item">
+            <span class="highlight-item__icon">♻️</span>
+            <h4>Kemasan Ramah Lingkungan</h4>
+            <p>
+              Menggunakan botol bisa didaur ulang dan label berbahan kertas daur ulang.
+            </p>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-item__icon">🏃‍♀️</span>
+            <h4>Mendukung Gaya Hidup Aktif</h4>
+            <p>
+              Nutrisi seimbang untuk sarapan cepat, snack sore, atau setelah olahraga.
+            </p>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-item__icon">🍠</span>
+            <h4>Inovasi Pangan Lokal</h4>
+            <p>
+              Mengangkat potensi umbi ganyong sebagai alternatif karbohidrat sehat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SUSTAINABILITY ================= -->
+    <section id="sustainability" class="section section--alt">
+      <div class="container section__inner section__inner--two-col">
+        <div class="section__content reveal">
+          <h2 class="section__title">Sustainability & SDGs</h2>
+          <p class="section__subtitle">
+            Dari ladang ganyong hingga botol yoghurt, kami memikirkan dampak setiap langkahnya.
+          </p>
+
+          <div class="sdg-card">
+            <h3>Kaitan dengan SDG 12: Konsumsi dan Produksi yang Bertanggung Jawab</h3>
+            <ul class="sdg-card__list">
+              <li>Menggunakan bahan baku lokal yang mudah dibudidayakan.</li>
+              <li>Mengurangi limbah pangan dengan memanfaatkan umbi yang sering terabaikan.</li>
+              <li>Mendorong konsumen memilih produk dengan jejak lingkungan yang lebih kecil.</li>
+            </ul>
+          </div>
+
+          <div class="sustainability-grid">
+            <div class="sustainability-item">
+              <h4>Pemberdayaan Petani Lokal</h4>
+              <p>
+                CanaYo bekerja dengan petani ganyong di daerah pedesaan, memberikan
+                pelatihan budidaya berkelanjutan dan akses pasar yang lebih stabil.
+              </p>
+            </div>
+            <div class="sustainability-item">
+              <h4>Kemasan Ramah Lingkungan</h4>
+              <p>
+                Kami menggunakan botol yang dapat didaur ulang dan selalu mencari cara
+                untuk mengurangi plastik sekali pakai di sepanjang rantai distribusi.
+              </p>
+            </div>
+            <div class="sustainability-item">
+              <h4>Transparansi Rantai Pasok</h4>
+              <p>
+                Setiap botol CanaYo mencantumkan informasi asal ganyong, sehingga
+                konsumen bisa tahu dari daerah mana bahan pangan mereka berasal.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section__visual reveal">
+          <div class="timeline">
+            <div class="timeline__item">
+              <span class="timeline__dot"></span>
+              <div class="timeline__content">
+                <h4>1. Panen Ganyong</h4>
+                <p>Dipanen dari lahan petani lokal dengan praktik pertanian regeneratif.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__dot"></span>
+              <div class="timeline__content">
+                <h4>2. Proses Menjadi Yoghurt</h4>
+                <p>Diolah secara higienis dengan kultur probiotik pilihan.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__dot"></span>
+              <div class="timeline__content">
+                <h4>3. Pengemasan & Distribusi</h4>
+                <p>Dipaketkan dalam kemasan ramah lingkungan dan dikirim ke toko mitra.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section__header reveal">
+          <h2 class="section__title">Edukasi Konsumen</h2>
+          <p class="section__subtitle">
+            Kenalan lebih dekat dengan ganyong dan mengapa yoghurt alternatif itu penting.
+          </p>
+        </div>
+
+        <div class="education-grid">
+          <article class="education-card reveal">
+            <h3>Fun Facts tentang Ganyong</h3>
+            <ul class="education-card__list">
+              <li>Umbi lokal Nusantara yang sudah lama dikenal di beberapa daerah.</li>
+              <li>Mampu tumbuh di tanah kurang subur dengan perawatan minimal.</li>
+              <li>Kaya karbohidrat kompleks dan serat, baik untuk energi tahan lama.</li>
+              <li>Bisa diolah menjadi tepung, kue, minuman, dan tentunya yoghurt!</li>
+            </ul>
+          </article>
+
+          <article class="education-card reveal">
+            <h3>Mengapa Pilih Yoghurt dari Umbi?</h3>
+            <ul class="education-card__list">
+              <li>Alternatif bagi mereka yang sensitif terhadap susu sapi.</li>
+              <li>
+                Mengurangi ketergantungan pada bahan impor dengan
+                memanfaatkan kekayaan pangan lokal.
+              </li>
+              <li>Membuka peluang inovasi kuliner dan bisnis baru di sektor pangan lokal.</li>
+            </ul>
+          </article>
+
+          <article class="education-card reveal">
+            <h3>Diversifikasi Pangan Lokal</h3>
+            <p>
+              Indonesia punya banyak jenis umbi dan tanaman lokal yang potensial.
+              Dengan mengonsumsi produk seperti CanaYo, kamu ikut mendorong:
+            </p>
+            <ul class="education-card__list">
+              <li>Penganekaragaman sumber karbohidrat di luar beras dan gandum.</li>
+              <li>Peningkatan kesejahteraan petani lokal.</li>
+              <li>Ketahanan pangan yang lebih kuat di masa depan.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT & ORDER ================= -->
+    <section id="contact" class="section section--contact">
+      <div class="container section__inner section__inner--two-col">
+        <div class="section__content reveal">
+          <h2 class="section__title">Kontak & Pemesanan</h2>
+          <p class="section__subtitle">
+            Siap coba CanaYo? Pesan sekarang atau hubungi kami untuk kolaborasi dan kemitraan.
+          </p>
+          <div class="contact-actions">
+            <a href="https://wa.me/6281234567890" target="_blank" class="btn btn--primary">
+              Pesan via WhatsApp
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="btn btn--ghost">
+              Ikuti Kami di Instagram
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <span class="social-link__icon">📸</span> @canayo.yoghurt
+            </a>
+            <a href="#" class="social-link">
+              <span class="social-link__icon">🐦</span> @canayo_id
+            </a>
+            <a href="#" class="social-link">
+              <span class="social-link__icon">📘</span> CanaYo Official
+            </a>
+          </div>
+
+          <div class="stores">
+            <h3>Lokasi Toko</h3>
+            <ul>
+              <li>Jakarta Selatan - Jl. Sehat No. 12, Kemang</li>
+              <li>Bandung – Jl. Lokal Rasa No. 8, Dago</li>
+              <li>Surabaya – Jl. Hijau Muda No. 21, Darmo</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section__visual reveal">
+          <form class="contact-form">
+            <h3>Kirim Pesan</h3>
+            <p>Untuk pemesanan bulk, kerja sama event, atau reseller.</p>
+            <div class="form-group">
+              <label for="name">Nama</label>
+              <input type="text" id="name" placeholder="Nama lengkap kamu" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="email@contoh.com" />
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" rows="4" placeholder="Ceritakan kebutuhanmu di sini"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">
+              Kirim Pesan
+            </button>
+            <p class="form-note">
+              *Form ini adalah contoh tampilan. Hubungkan ke backend / layanan email sesuai kebutuhanmu.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> CanaYo. Semua hak cipta dilindungi.</p>
+      <p class="footer__tagline">“Yoghurt Sehat dari Ganyong, bangga akan pangan lokal.”</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
