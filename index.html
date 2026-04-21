@@ -453,3 +453,15 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+<button id="startAR">Start AR</button>
+
+<!-- AR-ADDED: Place this container just before </body> -->
+<div id="ar-container" class="ar-container" style="display: none;">
+  <div id="ar-loading" class="ar-loading">
+    <div class="ar-spinner"></div>
+    <p>Initializing camera...</p>
+  </div>
+  <button id="ar-close" class="ar-close-btn">✕ Exit AR</button>
+  <!-- AR-ADDED: A-Frame scene will be injected here dynamically -->
+</div>
